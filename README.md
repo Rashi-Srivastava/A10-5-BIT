@@ -45,4 +45,6 @@ Added to this, an additional feature to predict vcrop type and crop disease is a
 
 ## PPt shared can be found here: https://github.com/Rashi-Srivastava/A10-5-BIT/blob/main/Videos/Maati.pptx
 
+## Codes for app Frontend can be found here: https://github.com/Rashi-Srivastava/A10-5-BIT/tree/frontend
+
 
