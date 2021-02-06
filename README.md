@@ -4,11 +4,9 @@
 ### Developers- 
 Rashi Srivastava, IIIrd Semester - rashisrivastava@ieee.org
 
-Ankit Jailwal, IIIrd Semester - jailwalankit@gmail.com
+Ankit Jailwal, IVth Semester - jailwalankit@gmail.com
 
-Shivam Sawarn, IIIrd Semester - shivamsawarn@ieee.org
-
-Abhisehk Kumar, IIIrd Semester - mr.abhishekkumar2024@gmail.com
+Shivam Sawarn, IVth Semester - shivamsawarn@ieee.org
 
 Vivek Kumar, IIIrd Semester - vivekkaushik480@gmail.com
 
@@ -17,7 +15,7 @@ Vivek Kumar, IIIrd Semester - vivekkaushik480@gmail.com
 Selecting Crops for farmers is a hectic job as they have to consider many different factors. Hence, developing an app which will help farmers in making their jobs easy.
 
 #### Aim - 
-The aim is to design an AI based crop recommendation application which can recommend different crops to the farmers by analysing all the relevant factors for a particular land area such as rainfall, temperature, season, ground water available, soil type and location. The application is based on Deep Learning and Machine Learning algorithms to detect the soil type given an image and recommend the best fit crop along with further suggestions for that very crop such as expected revenue generated per hectare, demand of the crop, required fertilizers, cost of cultivation per hectare, quantity of seeds per hectare, duration of cultivation and the crops which can be used for mixed cropping with the primary crop.
+The aim is to design an AI based crop recommendation application which can recommend different crops to the farmers by analysing all the relevant factors for a particular land area such as rainfall, temperature, season, ground water available, soil type and location. The application is based on Deep Learning and Machine Learning algorithms to detect the soil type given an image and recommend the best fit crop along with further suggestions for that very crop such as expected revenue generated per hectare, demand of the crop, required fertilizers, cost of cultivation per hectare, quantity of seeds per hectare, duration of cultivation and the crops which can be used for mixed cropping with the primary crop. Along with this
 
 #### Datasets used - 
 Multiple datasets have been used for training and obtaining relevant output purposes. All the datasets used are custom datsets; constructed and structured according to the algorithm requirements and proposed test cases. Following is the list and types of the datasets used-
@@ -41,4 +39,8 @@ Multiple datasets have been used for training and obtaining relevant output purp
 
 - After crop prediction the relevant details related to the crops will be fetched and shown as the output to the users.
 - Users can also access other features of the app such as: Kisan Call Centre, Maati News for agriculture news and happenings, Maati analysis for weather updates, History of previous recommendations etc. 
+
+This app also includes a portal for farmers where they can buy the products needed while the cultivation period,right from seeds to machies/tools, sell their produce directly in the market and also register their land, machine for rent. It aims to cover all the needs of a farmer.
+
+Added to this, an additional feature to predict vcrop type and crop disease is also added in the app.
 
