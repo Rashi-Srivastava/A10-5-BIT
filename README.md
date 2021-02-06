@@ -35,3 +35,10 @@ This app also includes a portal for farmers where they can buy the products need
 
 Added to this, an additional feature to predict vcrop type and crop disease is also added in the app.
 
+#### All the Python Scripts for ML and DL models can be found here: https://github.com/Rashi-Srivastava/A10-5-BIT/tree/main/Python_Scripts
+
+- CRS.py contains the Machine Learning Model for Crop Recommendation
+
+- SoilNET.py conatins the deep learning neural network architecture for Soil type recognition.
+
+
