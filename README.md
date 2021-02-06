@@ -41,6 +41,8 @@ Added to this, an additional feature to predict vcrop type and crop disease is a
 
 - SoilNET.py conatins the deep learning neural network architecture for Soil type recognition.
 
-#### Videos for working part of the model can be found here: https://github.com/Rashi-Srivastava/A10-5-BIT/tree/main/Videos
+## Videos for working part of the model can be found here: https://github.com/Rashi-Srivastava/A10-5-BIT/tree/main/Videos
+
+## PPt shared can be found here: https://github.com/Rashi-Srivastava/A10-5-BIT/blob/main/Videos/Maati.pptx
 
 
