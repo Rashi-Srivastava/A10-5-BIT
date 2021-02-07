@@ -11,7 +11,7 @@ class MainWeatherData {
 
   MainWeatherData(this.temp, this.pressure, this.humidity, this.tempMin,
       this.tempMax, this.pressureSeaLevel, this.pressureGroundLevel);
-
+//Maati
   MainWeatherData.fromJson(Map<String, dynamic> json)
       : temp = TypesHelper.toDouble(json["temp"]),
         pressure = TypesHelper.toDouble(json["pressure"]),

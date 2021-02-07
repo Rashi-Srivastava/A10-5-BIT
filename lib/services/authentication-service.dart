@@ -66,7 +66,7 @@ class AuthenticationService {
   Future<void> logout() {
     return _setAuthToken(null);
   }
-
+//Maati
   bool get authenticationStatus {
     while (!initTokenSet);
     return _authToken != null;

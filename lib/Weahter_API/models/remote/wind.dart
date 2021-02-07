@@ -28,7 +28,7 @@ class Wind {
     } else if (deg >= 180 && deg < 225) {
       return "S";
     } else if (deg >= 225 && deg < 270) {
-      return "SW";
+      return "SW";//Maati
     } else if (deg >= 270 && deg < 315) {
       return "W";
     } else if (deg >= 315 && deg <= 360) {

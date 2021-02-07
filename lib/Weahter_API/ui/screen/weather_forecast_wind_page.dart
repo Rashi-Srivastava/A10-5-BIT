@@ -30,7 +30,7 @@ class WeatherForecastWindPage extends WeatherForecastBasePage {
         rowElements.add(WidgetHelper.buildPadding(left: padding));
       }
       rowElements.removeLast();
-    }
+    }//Maati
     return Row(
         key: Key("weather_forecast_wind_page_bottom_row"),
         mainAxisAlignment: MainAxisAlignment.center,

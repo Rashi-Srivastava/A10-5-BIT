@@ -19,7 +19,7 @@ class WeatherForecastThumbnailWidget extends StatelessWidget {
     if (!applicationBloc.isMetricUnits()){
       temperature = WeatherHelper.convertCelsiusToFahrenheit(temperature);
     }
-
+//maati
 
     return Material(
         key: Key("weather_forecast_thumbnail_widget"),

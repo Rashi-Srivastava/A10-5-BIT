@@ -18,7 +18,7 @@ class Optional<T> extends IterableBase<T> {
   Optional.of(T value) : this._value = value {
     if (this._value == null) throw new ArgumentError('Must not be null.');
   }
-
+//Maati
   /// Constructs an Optional of the given [value].
   ///
   /// If [value] is null, returns [absent()].

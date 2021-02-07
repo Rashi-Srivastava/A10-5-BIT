@@ -27,7 +27,7 @@ class WeatherMainWidgetState extends State<WeatherMainWidget> {
     bloc.setupTimer();
     bloc.fetchWeatherForUserLocation();
   }
-
+//maati
   @override
   void dispose() {
     super.dispose();

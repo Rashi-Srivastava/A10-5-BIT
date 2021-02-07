@@ -23,7 +23,7 @@ abstract class BaseBloc {
         GeoPosition geoPosition = GeoPosition.fromPosition(position);
         weatherLocalRepository.saveLocation(geoPosition);
         return geoPosition;
-      } else {
+      } else {//Maati
         _logger.fine("Position is not present!");
         return weatherLocalRepository.getLocation();
       }

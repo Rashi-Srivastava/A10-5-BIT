@@ -14,7 +14,7 @@ class TranslationBloc extends Bloc<TranslationEvent, TranslationState> {
   @override
   TranslationState get initialState => TranslationState(
         locale: translations.locale,
-      );
+      );//Maati
   @override
   Stream<TranslationState> mapEventToState(
     TranslationEvent event,

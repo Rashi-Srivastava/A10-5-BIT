@@ -9,7 +9,7 @@ class Coordinates {
   Coordinates.fromJson(Map<String, dynamic> json)
       : longitude = TypesHelper.toDouble(json["lon"]),
         latitude = TypesHelper.toDouble(json["lat"]);
-
+//Maati
   Map<String,dynamic> toJson() => {
     "longitude":longitude,
     "latitude":latitude

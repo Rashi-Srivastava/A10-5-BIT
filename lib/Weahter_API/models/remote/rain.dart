@@ -10,6 +10,6 @@ class Rain{
   Map<String,dynamic> toJson() => {
     "3h": amount
   };
-
+//Maati
 
 }

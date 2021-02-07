@@ -20,7 +20,7 @@ class WeatherForecastThumbnailListWidget extends StatefulWidget {
     return WeatherForecastThumbnailListWidgetState();
   }
 }
-
+//maati
 class WeatherForecastThumbnailListWidgetState
     extends State<WeatherForecastThumbnailListWidget> {
   @override

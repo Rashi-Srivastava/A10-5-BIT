@@ -26,7 +26,7 @@ class WeatherHelper {
     }
     return asset;
   }
-
+//Maati
   static Map<String, List<WeatherForecastResponse>> mapForecastsForSameDay(
       List<WeatherForecastResponse> forecastList) {
     Map<String, List<WeatherForecastResponse>> map = new LinkedHashMap();

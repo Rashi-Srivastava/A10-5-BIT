@@ -22,7 +22,7 @@ class WeatherForecastWidget extends StatelessWidget {
 
   WeatherForecastWidget({Key key, this.holder, this.width, this.height})
       : super(key: key);
-
+//maati
   WeatherForecastBasePage _getPage(
       String key, WeatherForecastHolder holder, double width, double height) {
     if (_pageMap.containsKey(key)) {

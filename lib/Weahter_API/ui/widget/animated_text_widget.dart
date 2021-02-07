@@ -15,7 +15,7 @@ class AnimatedTextWidget extends StatefulWidget {
 
 class _AnimatedTextWidgetState extends AnimatedState<AnimatedTextWidget> {
   double _value = 0;
-
+//maati
   @override
   void initState() {
     super.initState();

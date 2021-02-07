@@ -16,7 +16,7 @@ class WeatherForecastHolder {
   double _maxWind;
   double _minWind;
 
-  List<double> _rains;
+  List<double> _rains;//Maati
   double _averageRain;
   double _maxRain;
   double _minRain;

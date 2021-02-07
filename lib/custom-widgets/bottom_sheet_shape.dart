@@ -12,7 +12,7 @@ class BottomSheetShape extends ShapeBorder {
     // TODO: implement getInnerPath
     throw UnimplementedError();
   }
-
+//maati
   @override
   Path getOuterPath(Rect rect, {TextDirection textDirection}) {
     return getClip(rect.size);

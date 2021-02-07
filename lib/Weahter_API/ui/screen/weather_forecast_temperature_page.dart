@@ -31,7 +31,7 @@ class WeatherForecastTemperaturePage extends WeatherForecastBasePage {
       }
       widgets.removeLast();
     }
-
+//Maati
     return Row(
         key: Key("weather_forecast_temperature_page_bottom_row"),
         mainAxisAlignment: MainAxisAlignment.center,

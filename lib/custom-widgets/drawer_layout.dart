@@ -18,7 +18,7 @@ import 'package:ieeecrop/pages/Sell_now.dart';
 import 'package:ieeecrop/pages/about_us.dart';
 import 'package:ieeecrop/pages/agencies.dart';
 import 'package:ieeecrop/pages/fertilizer_screen.dart';
-import 'package:ieeecrop/pages/history.dart';
+import 'package:ieeecrop/pages/history.dart';//maati
 import 'package:ieeecrop/pages/Main_menu.dart';
 import 'package:toast/toast.dart';
 import 'package:fluttertoast/fluttertoast.dart';

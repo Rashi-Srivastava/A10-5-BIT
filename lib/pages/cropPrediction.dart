@@ -10,19 +10,19 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 
-class maaticam extends StatefulWidget with DrawerStates {
+class cropPrediction extends StatefulWidget with DrawerStates {
   @override
-  _maaticamState createState() => _maaticamState();
+  _cropPredictionState createState() => _cropPredictionState();
 }
 
-class _maaticamState extends State<maaticam> {
+class _cropPredictionState extends State<cropPrediction> {
   final maxLines = 5;
   File _image;
   File path;
   String _base64;
 
   Future get_image() async {
-    final img = await ImagePicker.pickImage(source: ImageSource.camera);
+    final img = await ImagePicker.pickImage(source: ImageSource.gallery);
     setState(() {
       _image = img;
       List<int> imageBytes = _image.readAsBytesSync();
@@ -55,15 +55,14 @@ class _maaticamState extends State<maaticam> {
                           borderRadius: BorderRadius.circular(10),
                           child: _image == null
                               ? Image.asset(
-                                  'assets/images/cam.jpg',
-                                )
+                            'assets/images/cam.jpg',
+                          )
                               : Image.file(_image),
                         ),
                       ),
                       SizedBox(
                         height: 20,
                       ),
-
                       Container(
                         height: 50,
                         child: FlatButton(
@@ -164,19 +163,19 @@ class output extends StatelessWidget with DrawerStates {
                     padding: EdgeInsets.only(left: 10, right: 10),
                     child: Column(
                       children: [
-                      Padding(
-                        padding: EdgeInsets.only(right: 5,left: 5,top: 7,bottom: 7),
-                        child: ClipRRect(
-                          borderRadius: BorderRadius.circular(10),
-                          child: YoutubePlayer(
-                           controller: _controller,
-                            progressColors: ProgressBarColors(
-                              playedColor: Colors.amber,
-                              handleColor: Colors.amberAccent,
+                        Padding(
+                          padding: EdgeInsets.only(right: 5,left: 5,top: 7,bottom: 7),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(10),
+                            child: YoutubePlayer(
+                              controller: _controller,
+                              progressColors: ProgressBarColors(
+                                playedColor: Colors.amber,
+                                handleColor: Colors.amberAccent,
+                              ),
                             ),
                           ),
                         ),
-                      ),
                         Card(
                           //                           <-- Card widget
                           child: ListTile(
@@ -278,4 +277,3 @@ class output extends StatelessWidget with DrawerStates {
       );
   }
 }
-//Maati

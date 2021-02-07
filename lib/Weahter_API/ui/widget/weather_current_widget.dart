@@ -19,7 +19,7 @@ class WeatherCurrentWidget extends StatefulWidget {
     return WeatherCurrentWidgetState();
   }
 }
-
+//maati
 class WeatherCurrentWidgetState extends AnimatedState<WeatherCurrentWidget> {
   final Logger log = new Logger('CurrentWeatherWidget');
 

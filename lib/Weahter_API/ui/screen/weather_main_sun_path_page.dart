@@ -22,7 +22,7 @@ class _WeatherMainSunPathPageState extends State<WeatherMainSunPathPage> {
   final int dayAsMs = DateTimeHelper.dayAsMs;
   Timer _timer;
   int _sunrise;
-  int _sunset;
+  int _sunset;//Maati
   _WeatherMainSunPathPageState(System system){
     _sunrise = system.sunrise * 1000;
     _sunset = system.sunset * 1000;

@@ -19,7 +19,7 @@ class GlobalTranslations {
   ///
   Iterable<Locale> supportedLocales() =>
       _supportedLanguages.map<Locale>((lang) => Locale(lang, ''));
-
+//Maati
   ///
   /// Return the translation that corresponds to the [key]
   ///

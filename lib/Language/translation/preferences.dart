@@ -20,7 +20,7 @@ class Preferences {
       String name, String value) async {
     return await SecureStorageApi.write(_storageKey + name, value);
   }
-
+//Maati
   /// ----------------------------------------------------------
   /// Method that saves/restores the preferred language
   /// ----------------------------------------------------------

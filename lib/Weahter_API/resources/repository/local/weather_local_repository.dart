@@ -22,7 +22,7 @@ class WeatherLocalRepository {
   Future<GeoPosition> getLocation() async {
     return await _storageManager.getLocation();
   }
-
+//Maati
   void saveWeather(WeatherResponse response) async {
     await _storageManager.saveWeather(response);
   }

@@ -30,7 +30,7 @@ class WeatherResponse {
       this.name,
       this.cod,
       this.station});
-
+//Maati
   WeatherResponse.fromJson(Map<String, dynamic> json)
       : cord = Coordinates.fromJson(json["coord"]),
         system = System.fromJson(json["sys"]),

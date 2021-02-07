@@ -326,7 +326,7 @@ Future Rent(String base64,String name,String amount,String quantity,String des) 
     "quantity": quantity,
     "amount": amount
   };
-
+//Maati
   final response= await http.post(url, headers: {"Content-Type": "application/json"},body:json.encode(data)
   );
   print(response.statusCode);

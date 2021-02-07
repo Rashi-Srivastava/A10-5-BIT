@@ -19,7 +19,7 @@ class SunPathWidget extends StatefulWidget {
 class _SunPathWidgetState extends AnimatedState<SunPathWidget> {
   double _fraction = 0.0;
 
-  @override
+  @override//maati
   void initState() {
     super.initState();
     animateTween(duration: 2000);

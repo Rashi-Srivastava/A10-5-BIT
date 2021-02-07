@@ -28,7 +28,7 @@ class WeatherBloc extends BaseBloc {
           ApplicationError.locationNotSelectedError));
     }
   }
-
+//Maati
   fetchWeather(double latitude, double longitude) async {
     _logger.log(Level.FINE, "Fetch weather");
     lastRequestTime = DateTimeHelper.getCurrentTime();

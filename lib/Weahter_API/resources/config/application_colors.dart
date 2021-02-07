@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-
+//maati
 class ApplicationColors{
   static final Color midnightStartColor = Colors.black;
   static final Color midnightEndColor = Colors.deepPurple.shade900;

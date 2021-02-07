@@ -8,7 +8,7 @@ class SizeConfig {
   static MediaQueryData _mediaQueryData;
   static double screenWidth;
   static double screenHeight;
-  static double defaultSize;
+  static double defaultSize;//maati
   static Orientation orientation;
 
   void init(BuildContext context) {

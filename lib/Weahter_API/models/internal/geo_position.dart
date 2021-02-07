@@ -23,4 +23,4 @@ class GeoPosition {
   String toString() {
     return 'GeoPosition{lat: $lat, long: $long}';
   }
-}
+}//Maati

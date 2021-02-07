@@ -27,7 +27,7 @@ class WeatherForecastResponse {
         rain = _getRain(json["rain"]),
         snow = _getRain(json["snow"]);
 
-
+//Maati
 
 
   static Rain _getRain(dynamic json) {

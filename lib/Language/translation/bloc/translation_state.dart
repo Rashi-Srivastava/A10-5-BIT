@@ -4,3 +4,4 @@ class TranslationState {
   final Locale locale;
   TranslationState({this.locale});
 }
+//Maati
