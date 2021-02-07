@@ -8,7 +8,7 @@ Ankit Jailwal, IVth Semester - jailwalankit@gmail.com
 
 Shivam Sawarn, IVth Semester - shivamsawarn@ieee.org
 
-Vivek Kumar, IIIrd Semester - vivekkaushik480@gmail.com
+Vivek Kaushik, IIIrd Semester - vivekkaushik480@gmail.com
 
 
 #### Problem Statement - 
